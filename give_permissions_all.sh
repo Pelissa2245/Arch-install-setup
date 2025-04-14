@@ -10,7 +10,7 @@ chmod +x install_flatpak-apps.sh
 chmod +x install_yay.sh
 chmod +x install_pacman-apps.sh
 chmod +x install_xfce4.sh
-chmod +x steam_lib_solutuon.sh
+chmod +x steam_lib_solution.sh
 chmod +x install_gnome.sh
 chmod +x install_plasma.sh
-chmod +x install_organizer.sh
+chmod +x install_organize.sh
