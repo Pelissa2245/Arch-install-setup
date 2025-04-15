@@ -1,23 +1,23 @@
 #!/bin/bash
 # This script installs some commonly used applications on Arch Linux using yay, flatpak, and pacman.
 
-# Update the system
-sudo pacman -Syu
+# Update the system without confirmation
+sudo pacman -Syu --noconfirm
 
-# Install Libre Office
-sudo pacman -S libreoffice-fresh
+# Install LibreOffice (fresh version)
+sudo pacman -S --needed --noconfirm libreoffice-fresh
 
 # Install nano
-sudo pacman -S nano
+sudo pacman -S --needed --noconfirm nano
 
 # Install neofetch
-sudo pacman -S neofetch
+sudo pacman -S --needed --noconfirm neofetch
 
 # Install htop
-sudo pacman -S htop
+sudo pacman -S --needed --noconfirm htop
 
 # Install python
-sudo pacman -S python
+sudo pacman -S --needed --noconfirm python
 
 # Install tmux
-sudo pacman -Sy tmux
+sudo pacman -S --needed --noconfirm tmux
