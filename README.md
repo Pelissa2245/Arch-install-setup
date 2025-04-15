@@ -6,6 +6,6 @@ chmod +x setup.sh
 
 # Install Stuff
 
-To install your stuff, run manually the scripts, with theese commands.
+To install your stuff, run the following command
 
 ./setup.sh
