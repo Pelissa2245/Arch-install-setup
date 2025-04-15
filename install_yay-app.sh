@@ -1,20 +1,23 @@
 #!/bin/bash
 
-yay -Syu
+# Atualiza o sistema (yay + pacman) sem confirmação
+yay -Syu --noconfirm
 
-yay -S preload
+# Instala o preload e habilita o serviço
+yay -S --needed --noconfirm preload
 sudo systemctl enable --now preload
 
-yay -Syu
+# Atualiza novamente (caso preload tenha alterado algo)
+yay -Syu --noconfirm
 
-# Install Google Chorome
-yay -S google-chrome
+# Instala o Google Chrome
+yay -S --needed --noconfirm google-chrome
 
-# Install Visual Studio Code
-yay -S visual-studio-code-bin
+# Instala o Visual Studio Code (versão oficial .deb repack)
+yay -S --needed --noconfirm visual-studio-code-bin
 
-# Install Discord
-yay -S discord
+# Instala o Discord
+yay -S --needed --noconfirm discord
 
-# Install notepad++
-yay -S notepadqq
+# Instala o Notepad++ (notepadqq é a alternativa para Linux)
+yay -S --needed --noconfirm notepadqq
