@@ -17,7 +17,4 @@ yay -S visual-studio-code-bin
 yay -S discord
 
 # Install notepad++
-yay -S notepad++
-
-# Install Ventoy
-yay -S ventoy-bin
+yay -S notepadqq
