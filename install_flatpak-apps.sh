@@ -3,15 +3,15 @@
 flatpak update
 
 # Install OBS Studio
-flatpak install flathub com.obsproject.Studio
+flatpak install -y flathub com.obsproject.Studio
 
 # Install Sober
-flatpak install flathub org.vinegarhq.Sober
+flatpak install -y flathub org.vinegarhq.Sober
 
 # Install Steam
-flatpak install flathub com.valvesoftware.Steam
+flatpak install -y flathub com.valvesoftware.Steam
 
 # Install Nextcloud
-flatpak install flathub com.nextcloud.desktopclient.nextcloud
+flatpak install -y flathub com.nextcloud.desktopclient.nextcloud
 
 
