@@ -3,6 +3,9 @@
 # Caminho do diretório atual
 DIR=$(dirname "$0")
 
+# Dá permissão de execução ao give_permissions_all.sh
+chmod +x "$DIR/give_permissions_all.sh"
+
 # Verifica se o fzf está instalado, senão instala com pacman
 if ! command -v fzf &>/dev/null; then
     echo "🔧 'fzf' não está instalado. Instalando via pacman..."
@@ -33,4 +36,3 @@ while IFS= read -r SCRIPT; do
     echo -e "\n🚀 Executando: $SCRIPT\n"
     bash "$SCRIPT"
 done <<< "$SELECTED"
-echo -e "\n✅ Todos os scripts selecionados foram executados com sucesso!"
