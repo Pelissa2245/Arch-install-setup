@@ -14,3 +14,4 @@ chmod +x steam_lib_solution.sh
 chmod +x install_gnome.sh
 chmod +x install_plasma.sh
 chmod +x install_organize.sh
+chmod +x install_nvidia.sh
